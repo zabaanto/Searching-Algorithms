@@ -3,7 +3,7 @@
 string file_to_string(string filename) {
 	
 	string text = "";
-	ifstream file_stream ("filename", ifstream::binary);
+	ifstream file_stream (filename, ifstream::binary);
 
 	if (file_stream.is_open()) {
 
