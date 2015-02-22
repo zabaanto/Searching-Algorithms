@@ -78,6 +78,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main_code.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
