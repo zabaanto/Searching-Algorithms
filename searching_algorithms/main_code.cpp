@@ -7,8 +7,9 @@ int main()
 	string* sample = new string("Jak");
 	string text (file_to_string(*file_name));
 
-	// calling algorithm
+	// calling algorithms
 	naive_algorithm(text, *sample);
+	kmp_algorithm(text, *sample);
 	
 
 

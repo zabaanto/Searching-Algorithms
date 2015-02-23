@@ -1,16 +1,17 @@
-﻿Build started 23. 2. 2015 12:55:53.
+﻿Build started 23. 2. 2015 17:56:41.
      1>Project "E:\Dokumenty\CVUT\Ing\FULV\Algoritmy vyhledavani\Searching-Algorithms\searching_algorithms\searching_algorithms.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt other_functions.cpp
-         other_functions.cpp
-     1>e:\dokumenty\cvut\ing\fulv\algoritmy vyhledavani\searching-algorithms\searching_algorithms\other_functions.cpp(12): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main_code.cpp
+         main_code.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Dokumenty\CVUT\Ing\FULV\Algoritmy vyhledavani\Searching-Algorithms\searching_algorithms\Debug\searching_algorithms.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Dokumenty\CVUT\Ing\FULV\Algoritmy vyhledavani\Searching-Algorithms\searching_algorithms\Debug\searching_algorithms.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Dokumenty\CVUT\Ing\FULV\Algoritmy vyhledavani\Searching-Algorithms\searching_algorithms\Debug\searching_algorithms.lib" /MACHINE:X86 Debug\main_code.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Dokumenty\CVUT\Ing\FULV\Algoritmy vyhledavani\Searching-Algorithms\searching_algorithms\Debug\searching_algorithms.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Dokumenty\CVUT\Ing\FULV\Algoritmy vyhledavani\Searching-Algorithms\searching_algorithms\Debug\searching_algorithms.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Dokumenty\CVUT\Ing\FULV\Algoritmy vyhledavani\Searching-Algorithms\searching_algorithms\Debug\searching_algorithms.lib" /MACHINE:X86 /PROFILE Debug\main_code.obj
          Debug\other_functions.obj
          Debug\searching_algorithms.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+     1>main_code.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
          searching_algorithms.vcxproj -> E:\Dokumenty\CVUT\Ing\FULV\Algoritmy vyhledavani\Searching-Algorithms\searching_algorithms\Debug\searching_algorithms.exe
      1>Done Building Project "E:\Dokumenty\CVUT\Ing\FULV\Algoritmy vyhledavani\Searching-Algorithms\searching_algorithms\searching_algorithms.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.59
+Time Elapsed 00:00:01.43
