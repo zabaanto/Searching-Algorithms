@@ -52,7 +52,7 @@ void kmp_algorithm(string text, string sample)
 		{
 			// first SAMPLE element doesnt fetch => no subSAMPLES, you could move on
 			if (control_index == 0) main_index++;
-			// otherwise dont forget for already checked subSAMPLES, you CANT move on!
+			// otherwise dont forget for already checked subSAMPLES, you CANT move on! (check position again)
 			else control_index = sample_info[control_index - 1];
 		}
 	}
