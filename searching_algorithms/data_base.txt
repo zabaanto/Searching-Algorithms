@@ -1,18 +1,1 @@
-V informatice se jedná o odbornı technickı pojem, kterım je oznaèen
- zvláštní datovı typ (bìnìjší je string nebo øetìzec) nebo datovı
- formát. Text je cokoliv, co je uloeno v textovém formátu (t.j. pøímo
- v textovıch znacích, kódovanıch napø. v ASCII, ANSI, Unicode, UTF-8, …),
- a to i v pøípadì, e danı textovı øetìzec (posloupnost znakù) nedává
- ádnı smysl v ádném pøirozeném ani formálním jazyce, a dokonce i v
- pøípadì, e délka textu je nulová (0 znakù). Podstatnı je zde typ
- nebo formát, kde pevnému poètu bajtù (poèítaèovıch slov) odpovídá
- vdy konkrétní znak dané abecedy.
-
-Text (dle jazykovìdy, tj. posloupnost slov, nesoucí vıznam)
- nakreslenı v obrázku (tj. napø. vyfotografovaná cedule s nápisem)
- není z pohledu informatiky „prostım textem“ (anglicky plain text),
- nebo „z pohledu poèítaèe“ se ji nejedná o soubor písmen, ale
- o binární data grafickıch objektù (rùznì barevné body, køivky, …)
- respektive se jedná o datovı typ nebo formát, jen není z hlediska
- informatiky povaován za textovı. V tomto formátu text není zakódován
- po jednotlivıch znacích dané abecedy v daném poètu bajtù.
+txttextdafdhrexhjfjtextdsfdtextkkdfdtexsexttextddfs

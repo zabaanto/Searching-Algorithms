@@ -13,16 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\serching_algorithms">
+      <UniqueIdentifier>{4677a237-b48c-4311-a087-9b75a86b0a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\others">
+      <UniqueIdentifier>{a4969bd4-2436-4c8e-ac50-cd25d0d38e62}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main_code.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="searching_algorithms.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="naive_algorithm.cpp">
+      <Filter>Source Files\serching_algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="BM.cpp">
+      <Filter>Source Files\serching_algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP.cpp">
+      <Filter>Source Files\serching_algorithms</Filter>
     </ClCompile>
     <ClCompile Include="other_functions.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\others</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

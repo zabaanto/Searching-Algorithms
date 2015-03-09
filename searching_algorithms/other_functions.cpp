@@ -13,7 +13,7 @@ string file_to_string(string filename) {
 		file_stream.seekg(0, file_stream.beg);
 
 		/* FILE to STRING */
-		// without newlines (13, 10)
+		// .. without newlines (13, 10)
 		char current_char;
 		while (file_stream >> noskipws >> current_char) 
 			if ( (int(current_char) != 13) & (int(current_char) != 10) )
