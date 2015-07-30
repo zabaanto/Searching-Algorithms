@@ -36,9 +36,6 @@
     <ClCompile Include="other_functions.cpp">
       <Filter>Source Files\others</Filter>
     </ClCompile>
-    <ClCompile Include="BM_another.cpp">
-      <Filter>Source Files\serching_algorithms</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_header.h">

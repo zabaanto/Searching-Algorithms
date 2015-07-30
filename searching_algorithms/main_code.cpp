@@ -4,7 +4,7 @@ int main()
 {
 
 	string* file_name = new string("data_base.txt");
-	string* sample = new string("ext");
+	string* sample = new string("textda");
 	string text (file_to_string(*file_name));
 
 	cout << text << endl;
@@ -27,12 +27,6 @@ int main()
 	cout << "Boyer-Moore Algorithm" << endl;
 	cout << "-----------------" << endl;
 	bm_algorithm(text, *sample);
-
-	cout << endl;
-
-	cout << "Boyer-Moore another Algorithm" << endl;
-	cout << "-----------------" << endl;
-	bm_another_algorithm(text, *sample);
 
 	return 0;
 }
