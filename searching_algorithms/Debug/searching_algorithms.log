@@ -1,10 +1,21 @@
-﻿Build started 9. 3. 2015 16:19:24.
+﻿Build started 9. 3. 2015 22:57:55.
      1>Project "E:\Dokumenty\CVUT\Ing\FULV\Algoritmy vyhledavani\Searching-Algorithms\searching_algorithms\searching_algorithms.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main_code.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt BM.cpp BM_another.cpp KMP.cpp main_code.cpp naive_algorithm.cpp other_functions.cpp
          main_code.cpp
+         KMP.cpp
+     1>e:\dokumenty\cvut\ing\fulv\algoritmy vyhledavani\searching-algorithms\searching_algorithms\kmp.cpp(50): warning C4018: '<': signed/unsigned mismatch
+         BM_another.cpp
+         BM.cpp
+         Generating Code...
+         Compiling...
+         other_functions.cpp
+     1>e:\dokumenty\cvut\ing\fulv\algoritmy vyhledavani\searching-algorithms\searching_algorithms\other_functions.cpp(12): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+         naive_algorithm.cpp
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Dokumenty\CVUT\Ing\FULV\Algoritmy vyhledavani\Searching-Algorithms\searching_algorithms\Debug\searching_algorithms.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Dokumenty\CVUT\Ing\FULV\Algoritmy vyhledavani\Searching-Algorithms\searching_algorithms\Debug\searching_algorithms.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Dokumenty\CVUT\Ing\FULV\Algoritmy vyhledavani\Searching-Algorithms\searching_algorithms\Debug\searching_algorithms.lib" /MACHINE:X86 /PROFILE Debug\BM.obj
+         Debug\BM_another.obj
          Debug\KMP.obj
          Debug\main_code.obj
          Debug\naive_algorithm.obj
@@ -16,4 +27,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.15
+Time Elapsed 00:00:08.60

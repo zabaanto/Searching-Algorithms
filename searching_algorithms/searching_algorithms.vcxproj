@@ -80,6 +80,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BM.cpp" />
+    <ClCompile Include="BM_another.cpp" />
     <ClCompile Include="KMP.cpp" />
     <ClCompile Include="main_code.cpp" />
     <ClCompile Include="naive_algorithm.cpp" />
